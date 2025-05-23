@@ -9,7 +9,7 @@ interface CandidateFormData {
   email: string;
   phone: string;
   location: string;
-  status: 'new' | 'screening' | 'interview' | 'hired' | 'rejected';
+  status: 'news' | 'screenings' | 'interview' | 'hired' | 'rejected';
   skills: string[];
 }
 
